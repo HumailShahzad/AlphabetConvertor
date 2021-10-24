@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
                         t2.setText(a.toUpperCase());
                     } else if (b < 97 && b >= 65)
                         t2.setText(a.toLowerCase());
-                    else
-                        Toast.makeText(MainActivity.this,"You can enter only an alphabet",Toast.LENGTH_LONG).show();
+                    //else
+                      //  Toast.makeText(MainActivity.this,"You can enter only an alphabet",Toast.LENGTH_LONG).show();
                 }
                 else
                     t2.setText("");
